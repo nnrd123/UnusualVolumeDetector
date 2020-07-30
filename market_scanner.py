@@ -75,6 +75,7 @@ class mainObj:
                     if self.days_between(str(currentDate)[:-9], str(d['Dates'][i])) <= 3:
                         self.customPrint(d, x)
 
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
         print("\n\n\n\n--- this took %s seconds to run ---" %
               (time.time() - start_time))
 
